@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #666;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+.screen {
+  cursor: pointer;
+  background-color: #000;
+  width: 50%;
+  height: 70%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin: 3rem 0 0 0;
+}
+.controls {
+  background-color: #333;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 50%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.controls .btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  margin: 0rem 0.5rem;
+}
+.fa-play {
+  color: #fff;
+}
+.fa-stop {
+  color: #fff;
+}
+.fa-pause {
+  color: #fff;
+}
