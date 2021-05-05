@@ -153,4 +153,9 @@ p {
   transition: all 0.4s;
   border-radius: 0.2rem;
 }
+
+.container .swap-container .rate {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
 /*# sourceMappingURL=style.css.map */
